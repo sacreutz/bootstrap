@@ -12,7 +12,7 @@ const About = ({ title, paragraph }: AboutProps) => {
     <div>
       <h1>{title}</h1>
       <p>{paragraph}</p>
-      <Button type="primary">Button</Button>
+      <Button style={{background: '@primary-color'}} type="primary">Button</Button>
     </div>
   );
 };
